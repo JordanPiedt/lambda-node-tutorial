@@ -1,0 +1,24 @@
+{
+  "name": "lambda-node-tutorial",
+  "version": "1.0.0",
+  "description": "Inside your project's `serverless.yml` file add following entry to the plugins section: `serverless-offline`. If there is no plugin section you will need to add it to the file.",
+  "main": "src/app.js",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "serverless-offline": "^3.25.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanPiedt/lambda-node-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanPiedt/lambda-node-tutorial/issues"
+  },
+  "homepage": "https://github.com/JordanPiedt/lambda-node-tutorial#readme"
+}
